@@ -1,1 +1,51 @@
-# Portfolio-
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Менің портфолиом</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Әділхан Думан</h1>
+    <p>Байланыс:+7 700 242 78 94</p>
+    <p>Поштам:dumanadilkhan8@gmail.com</p>
+  </header>
+
+  <section id="about">
+    <h2>Өзім жайлы</h2>
+    <p>Мен Әділхан думанмын,мен код бағдарламау саласында оқимын. 
+       Маған веб-даму, бағдарламалау және дизайн ұнайды.</p>
+  </section>
+
+  <section id="projects">
+    <h2>Жобаларым</h2>
+    <ul>
+      <li><strong>Жоба 1:</strong> Веб-сайт макеті</li>
+      <li><strong>Жоба 2:</strong> Python бағдарлама</li>
+      <li><strong>Жоба 3:</strong> Дизайн жұмыстары</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Байланыс</h2>
+    <form>
+      <label>Аты-жөніңіз:</label><br>
+      <input type="text" placeholder="Атыңыз"><br><br>
+
+      <label>Email:</label><br>
+      <input type="email" placeholder="email@example.com"><br><br>
+
+      <label>Хабарлама:</label><br>
+      <textarea placeholder="Хабарламаңызды жазыңыз"></textarea><br><br>
+
+      <button type="submit">Жіберу</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Барлық құқықтар қорғалған</p>
+  </footer>
+</body>
+</html>
